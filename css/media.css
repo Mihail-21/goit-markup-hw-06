@@ -316,7 +316,9 @@
     }
 
     /* Footer */
-
+    .web-link-footer{
+        margin-bottom: 16px;
+    }
     .footer-con {
         margin-right: 120px;
     }
