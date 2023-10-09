@@ -73,7 +73,6 @@
     .logo-link {
         color: var(--navyblue);
         font-weight: 500;
-        padding: 24px 0;
     }
 
     .logo-link:hover,
@@ -120,6 +119,7 @@
         gap: 40px;
         padding: 24px 0;
         position: relative;
+        margin-right: 132px;
     }
 
     .nav {
