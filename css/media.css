@@ -160,7 +160,10 @@
     } 
 
     /* benefits */
-
+    .benefits-conteiner{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     .benefits {
         flex-direction: row;
         gap: 72px 24px;
@@ -174,7 +177,10 @@
         display: none;
     }
     /* Our Team */
-
+     .team-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+     } 
      .team-list {
         flex-direction: row;
         gap: 72px 24px;
@@ -200,7 +206,10 @@
     } 
 
     /* Our Portfolio */
-
+     .Our-Portfolio-container{
+        padding-top: 96px;
+        padding-bottom: 96px;
+     }
      .portfolio-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -227,13 +236,10 @@
         display: flex; 
     }
 
-    .text{
-        margin-bottom: 72px;
-    }
-
     .footer-con {
         max-width: 264px;
         margin-right: 24px;
+        margin-bottom: 72px;
     }
 
     .footer-icons-link {
@@ -305,7 +311,10 @@
     }
 
     /* Our features */
-
+    .benefits-conteiner{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .benefits-title {
         font-size: 20px;
         font-weight: 500;
@@ -333,13 +342,19 @@
         align-items: center;
         justify-content: center;
     }    
-        
+    .team-section{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }    
     .team-img {
         flex-basis: calc((100% - 3 * 24px) / 4);
     }
 
     /* Our Portfolio */
-
+    .Our-Portfolio-container{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .portfolio-list-title {
         flex-basis: calc((100% - 48px) / 3);
     }
@@ -470,17 +485,22 @@
         display: flex;
         width: 288px;
         justify-content: center;
-        margin-bottom: 72px;
+       
         font-size: 16px;
         font-weight: 400;
         line-height: 24px; /* 150% */
         letter-spacing: 0.32px;
+    }
+    .footer-con{
+        margin-bottom: 72px;
     }
     .footer-text{
         text-align: center;
     }
     .footer-icons-conteiner{
         justify-content: center;
+    }
+    .social{
         margin-bottom: 72px;
     }
     .subs-form{

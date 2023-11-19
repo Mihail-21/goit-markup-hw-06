@@ -727,6 +727,8 @@ input::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
 }
 
 .icon-click-span {
@@ -741,6 +743,8 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
+  flex-shrink: 0;
 }
 .icon-click {
   display: flex;
@@ -783,7 +787,7 @@ input::placeholder {
   padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;
-   transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .menu-container.is-open {
@@ -811,7 +815,6 @@ input::placeholder {
   flex-direction: column;
   gap: 40px;
   margin-bottom: auto;
-  margin-bottom: 80px;  
 }
 
 .mobile-menu-link {
