@@ -412,6 +412,10 @@
         margin-right: 149px;
     }
     /*benefits*/
+    .benefits-conteiner{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     .benefits-item-wrapper{
         display: none;
     }
@@ -451,12 +455,20 @@
         text-transform: capitalize;
     }
     /*Our Team*/
+    .team-section{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     .team-list{
         flex-wrap: wrap;
         justify-content: center;
         gap: 72px;
     }
     /*Our Portfolio*/
+    .Our-Portfolio-container{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
     .portfolio-list{
         list-style-type: none;
         flex-wrap: wrap;
